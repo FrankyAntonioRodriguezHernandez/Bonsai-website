@@ -1,16 +1,42 @@
 .about {
-  background: #e8dfc9;
-  padding: 50px;
   text-align: center;
+  padding: 50px;
+  background-color: #e6e0d5;
+  margin-top: -100px; /* Para superponer la imagen circular */
 }
 
 .about h2 {
-  color: #4b5b39;
+  color: #4d4d30;
   font-size: 2rem;
 }
 
 .about p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   max-width: 800px;
   margin: auto;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 250px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  padding: 10px;
+  font-weight: bold;
 }

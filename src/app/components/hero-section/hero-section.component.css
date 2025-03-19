@@ -26,6 +26,20 @@
 .social-icons img {
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons img.whatsapp:hover {
+  content: url('/assets/icons/whatsapp2.svg');
+}
+
+.social-icons img.instagram:hover {
+  content: url('/assets/icons/instagram2.svg');
+}
+
+.social-icons img.telegram:hover {
+  content: url('/assets/icons/telegram2.svg');
 }
 
 .hero-image img {
